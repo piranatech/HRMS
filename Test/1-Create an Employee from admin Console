@@ -1,0 +1,57 @@
+Test Create an Employee
+
+POST http://localhost:3001/api/employees
+
+Headers : (as admin@sirh.com)
+	Key			Value
+	Authorization		Bearer 		eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkFETUlOMSIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc0MzI2NTg4OSwiZXhwIjoxNzQzMzUyMjg5fQ.m1v7Me1ns8_6ilydfY_9sSvJyJ9Vix1vTCnmreORA6Q
+
+Body : JSON
+
+{
+  "cin": "Y789011",
+  "nom": "Bennani",
+  "prenom": "Imane",
+  "sexe": "Homme",
+  "date_naissance": "1995-08-25",
+  "situation_familiale": "Célibataire",
+  "nationalite": "Marocaine",
+  "tel_mobile": "0611122233",
+  "email": "imane.bennani@sirh.com",
+  "adresse_personnelle": "456, Avenue Mohammed V, Rabat",
+  "ville": "Rabat",
+  "role": "admin",
+  "date_entree": "2024-07-18",
+  "date_sortie": null,
+  "actif": true,
+  "first_login": true,
+  "solde_congé": 0.0,
+  "custom_leave_increment": null,
+  "company_id": 1,
+  "type_contrat": "CDI",
+  "poste": "Analyste Financier",
+  "entite": "Alfa",
+  "direction_fonctionnelle": "Direction Financière",
+  "direction_hierarchique": "Direction Générale",
+  "chantier": "Rabat HQ",
+  "filiale": "Filiale 1",
+  "population": "Cadre",
+  "csp": "Groupe A",
+  "statut_employe": "En poste",
+  "source_recrutement": "Recommandation interne",
+  "cnss": "987654321098765",
+  "cimr": "CIMR654321",
+  "mutuelle": "AXA",
+  "rib": "987654321098765432109876",
+  "cv_interne": "cv_mehdi_rahimi.pdf",
+  "doc_csp": "contrat_csp_mehdi.pdf",
+  "photo": "profile_mehdi.jpg",
+  "contact_urgence_nom": "Omar Rahimi",
+  "contact_urgence_tel": "0677778899",
+  "contact_urgence_lien": "Père",
+  "cree_par": "employee",
+  "modifie_par": null,
+  "date_creation": "2025-03-29T11:00:00.000Z",
+  "date_modification": null
+}
+
